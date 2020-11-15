@@ -1,0 +1,79 @@
+.games {
+    flex: 1;
+    padding: 30px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner {
+    margin-left: 10%;
+}
+.rowbig{
+    display: flex;
+    /*Adds scrolls for this container, vertical: no scroll; horizontal scroll only reauired*/
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+/* Hide scroll bar*/
+.rowbig::-webkit-scrollbar {
+    display: none;
+}
+
+.rowbig_img{
+    border-radius: 5px;
+    width: 100%;
+    object-fit: contain;
+    max-height: 300px;
+    margin-right: 10px;
+    transition: transform 450ms; /*Slow pop up effect*/
+}
+
+.rowbig_img:hover{
+    transform: scale(1.08);    
+}
+
+.rowbig_row {
+    padding: 6px; 
+}
+
+.text {
+    display: flex;
+    padding: 10px;
+    align-content: space-between;
+}
+
+.rowsmall{
+    display: flex;
+    /*Adds scrolls for this container, vertical: no scroll; horizontal scroll only reauired*/
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+/* Hide scroll bar*/
+.rowsmall::-webkit-scrollbar {
+    display: none;
+}
+
+.rowsmall_img{
+    border-radius: 5px;
+    width: 100%;
+    object-fit: contain;
+    height: 300px;
+    
+}
+
+.rowsmall_row {
+    transition: transform 450ms;
+    margin: 10px;
+}
+.rowsmall_row:hover{
+    transform: scale(1.08);    
+}
+
+.margin-top{
+    margin-top: 20px;
+}

@@ -1,0 +1,14 @@
+.app {
+    background-color: #f1f2f5;
+}
+
+.app__body {
+    display: flex;
+    flex: 0.8; 
+}
+
+.right_div{
+    /* min-width: 100px;
+    padding: 120px; */
+    flex: 0.2;
+}

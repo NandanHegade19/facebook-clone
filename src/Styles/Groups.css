@@ -1,0 +1,24 @@
+body{
+    background-color: #f1f2f5;
+}
+.groups{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.card{
+    align-items: center;
+}
+.btn{
+    color: white;
+    background-color: rgb(9, 102, 207);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(43, 135, 255);
+}

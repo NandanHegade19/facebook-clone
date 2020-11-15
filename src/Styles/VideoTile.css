@@ -1,0 +1,27 @@
+.videotile {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    margin-bottom: 40px;
+}
+
+.videotile__thumbnail {
+    height: 140px;
+    width: 250px;
+}
+
+.videotile__info {
+    display: flex;
+    margin-top: 10px;
+    padding-right: 30px;
+}
+
+.videotile__title{
+    margin-left: 15px;
+}
+
+.videotile__title > h4 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+

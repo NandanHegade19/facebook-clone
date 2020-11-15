@@ -1,0 +1,82 @@
+.loginpage {
+    padding-top: 10%;
+    padding-left: 20%;
+    background-color: #f0f2f5;
+    height: 95vh;
+}
+
+.logo {
+    margin-left: 20%;
+}
+
+.logo > img {
+    object-fit: contain;
+    width: 15vw;
+}
+
+.logo > h2{
+    padding-left: 30px;
+    max-width: 70%;
+}
+
+.login{
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    max-width: 396px !important;
+    max-height: 400px;
+}
+
+.login > button {
+    width: 355px;
+    background-color: #2e81f4;
+    color: #eff2f5;
+    font-weight: 800;
+    margin: 10px;
+    padding: 15px;
+}
+
+.login>button:hover {
+    background-color: white;
+    color: #2e81f4;
+}
+
+.inputs {
+    padding: 15px;
+    margin: 10px;
+    width: 320px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 17px;
+}
+
+.login > a{
+    padding: 15px;
+    margin: 90px;
+    color: blue;
+}
+
+.login > hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(235, 233, 233);
+}
+
+.footer{
+    background-color: #fff;
+}
+
+.footer > p{
+    margin: 20px;
+    text-align: center;
+}
+
+.hr{
+    color: rgb(233, 232, 232);
+
+}
